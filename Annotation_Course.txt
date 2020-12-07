@@ -1,0 +1,13 @@
+Annotation :
+
+JavaScript work with variable like :
+
+	let calculationDescription= `(${defaultResult} + 10) * 3 / 2 - 1`;
+	(weird character)
+	or
+	let calculationDescription= '(' + defaultResult + ' + 10) * 3 / 2 - 1';
+
+	let errorMsg = 'Error ocurred \n' +
+					'in aplication';
+
+	-this type of appliance can help to avoid when user to see simple write space can see the right value
