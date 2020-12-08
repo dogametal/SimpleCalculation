@@ -3,8 +3,10 @@ let currentResult = defaultResult;
 
 
 function add(num1, num2){
-	 currentResult = currentResult + parseInt(userInput.value);
-	 outputResult(currentResult,'');
+	
+	const calcDescription = `${currentResult} + ${userInput.value}`
+	currentResult = currentResult + parseInt(userInput.value);
+	outputResult(currentResult,calcDescription);
 }
 
 addBtn.addEventListener('click', add)
